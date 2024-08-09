@@ -21,7 +21,7 @@ import { ScrollArea } from "@radix-ui/react-scroll-area";
 
 const about = {
   title: 'About me',
-  description: "Hello Description",
+  description: "Passionate software developer committed to creating innovative solutions and delivering high-quality results that exceed client expectations.",
   info:[
     {
       fieldName: "Name",
@@ -46,7 +46,7 @@ const about = {
 const experience = {
   icon : "/assets/resume/badge.svg",
   title : 'My Experience',
-  description : "Hello Description",
+  description : "Proven track record in delivering successful web projects, from concept to deployment, across various industries.",
   items:[
     {
     company: "Algorim",
@@ -63,7 +63,7 @@ const experience = {
 const education = {
   icon : "/assets/resume/cap.svg",
   title : "My Education",
-  description : "Hello Description",
+  description : "Bachelor's degree in Computer Science with a focus on software development and design.",
   items:[
     {
     institution: "Shahwilayat Public School",
@@ -82,7 +82,7 @@ const education = {
 
 const skills = {
   title : "My Skills",
-  description : "Hello Description",
+  description : "Proficient in web development, UI/UX design, logo design, and SEO, with a strong command of modern frameworks and tools.",
   skillList:[
     {
       icon : <FaHtml5/>,
@@ -151,7 +151,7 @@ const Resume = () => {
               {/* experience */}
               <TabsContent value="experience" className="w-full">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold py-16">{experience.title}</h3>
+                <h3 className="text-4xl font-bold py-10">{experience.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{experience.description}</p>
                 <ScrollArea className="h-[400px]">
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
@@ -174,7 +174,7 @@ const Resume = () => {
               {/* education */}
               <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold py-16">{education.title}</h3>
+                <h3 className="text-4xl font-bold py-10">{education.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{education.description}</p>
                 <ScrollArea className="h-[400px]">
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
@@ -198,7 +198,7 @@ const Resume = () => {
               <TabsContent value="skills" className="w-full h-full">
                 <div className="flex flex-col gap-[30px]">
                   <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                    <h3 className="text-4xl font-bold py-16">{skills.title}</h3>
+                    <h3 className="text-4xl font-bold py-10">{skills.title}</h3>
                     <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
                   </div>
                   <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
@@ -227,7 +227,7 @@ const Resume = () => {
               {/* about me */}
               <TabsContent value="about" className="w-full text-center xl:text-left">
                 <div className="flex flex-col gap-[30px]">
-                  <h3 className="text-4xl font-bold py-16">{about.title}</h3>
+                  <h3 className="text-4xl font-bold py-10">{about.title}</h3>
                   <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 ">{about.description}</p>
                   <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                     {about.info.map((item, index) => {

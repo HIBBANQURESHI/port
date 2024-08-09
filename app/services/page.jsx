@@ -7,28 +7,28 @@ const services = [
   {
     num: '01',
     title: 'Web Development',
-    description: 'hello web',
+    description: 'Building websites with modern technologies.',
     href:''
 
   },
   {
     num: '02',
     title: 'UI/UX design',
-    description: 'hello UI/UX design',
+    description: 'Designing interfaces for seamless experiences.',
     href:''
 
   },
   {
     num: '03',
     title: 'Logo Design',
-    description: 'hello Logo Design',
+    description: 'Crafting logos that reflect brand identity.',
     href:''
 
   },
   {
     num: '04',
     title: 'SEO',
-    description: 'hello SEO',
+    description: 'Driving organic traffic through effective optimization.',
     href:''
 
   },
