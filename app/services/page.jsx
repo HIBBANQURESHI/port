@@ -13,15 +13,15 @@ const services = [
   },
   {
     num: '02',
-    title: 'UI/UX design',
-    description: 'Designing interfaces for seamless experiences.',
+    title: 'App Development',
+    description: 'Building Future Ready Apps.',
     href:''
 
   },
   {
     num: '03',
-    title: 'Logo Design',
-    description: 'Crafting logos that reflect brand identity.',
+    title: 'AI',
+    description: 'Leading the Future with Advanced AI Solutions.',
     href:''
 
   },
