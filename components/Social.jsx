@@ -2,8 +2,8 @@ import Link from "next/link";
 import {FaGithub, FaLinkedinIn} from "react-icons/fa";
 
 const socials = [
-    {icon:<FaGithub/>, path:"" },
-    {icon:<FaLinkedinIn/>, path:"" },
+    {icon:<FaGithub/>, path:"https://github.com/HIBBANQURESHI" },
+    {icon:<FaLinkedinIn/>, path:"https://www.linkedin.com/in/muhammad-hibban-qureshi-22761b238/" },
 ];
 
 const Social = ({containerStyles, iconStyles}) => {
