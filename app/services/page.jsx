@@ -6,32 +6,52 @@ import Link from "next/link";
 const services = [
   {
     num: '01',
-    title: 'Web Development',
-    description: 'Building websites with modern technologies.',
-    href:''
-
+    title: 'WEB DEVELOPMENT',
+    description: 'Modern, responsive websites with clean code.',
+    href: ''
   },
   {
     num: '02',
-    title: 'App Development',
-    description: 'Building Future Ready Apps.',
-    href:''
-
+    title: 'APP DEVELOPMENT',
+    description: 'Cross-platform and native mobile apps.',
+    href: ''
   },
   {
     num: '03',
-    title: 'AI',
-    description: 'Leading the Future with Advanced AI Solutions.',
-    href:''
-
+    title: 'SOFTWARE SOLUTIONS',
+    description: 'Custom software tailored to business needs.',
+    href: ''
   },
   {
     num: '04',
-    title: 'SEO',
-    description: 'Driving organic traffic through effective optimization.',
-    href:''
-
+    title: 'AI & ML',
+    description: 'Smart solutions with AI and machine learning.',
+    href: ''
   },
+  {
+    num: '05',
+    title: 'UI/UX DESIGN',
+    description: 'Clean, intuitive, and user-first designs.',
+    href: ''
+  },
+  {
+    num: '06',
+    title: 'SEO & SPEED',
+    description: 'Optimize for traffic, ranking, and performance.',
+    href: ''
+  },
+  {
+    num: '07',
+    title: 'API & BACKEND',
+    description: 'Robust APIs and scalable server logic.',
+    href: ''
+  },
+  {
+    num: '08',
+    title: 'MAINTENANCE',
+    description: 'Ongoing support and regular updates.',
+    href: ''
+  }
 ];
 
 import { motion } from "framer-motion"

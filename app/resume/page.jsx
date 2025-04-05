@@ -1,17 +1,12 @@
 "use client";
 
-import{
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaPython,
-  FaNode,
+import { 
+  FaHtml5, FaCss3, FaJs, FaReact, FaPython, FaNode, FaGit, FaAngular, FaVuejs 
 } from "react-icons/fa";
-
-import{
-  SiTailwindcss, 
-  SiNextdotjs,
+import { 
+  SiExpress, SiTailwindcss, SiNextdotjs, SiTensorflow, SiKeras, 
+  SiDjango, SiFlask, SiMongodb, SiMysql, SiRedux, SiTypescript, SiPostgresql, 
+  SiDocker, SiFirebase, SiJupyter, SiGraphql 
 } from "react-icons/si";
 
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
@@ -33,7 +28,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "1 Year"
+      fieldValue: "2 Year"
     },
     {
       fieldName: "Email",
@@ -49,14 +44,17 @@ const experience = {
   description : "Proven track record in delivering successful web projects, from concept to deployment, across various industries.",
   items:[
     {
-    company: "Algorim",
-    position: "MERN Stack Developer"
-    },
+      company: "AKC Link Tech",
+      position: "Full Stack Developer"
+      },
     {
       company: "CoDesign",
       position: "Python Developer"
-      }
-
+      },
+    {
+    company: "Algorim",
+    position: "MERN Stack Developer"
+    }
   ]
 };
 
@@ -66,62 +64,52 @@ const education = {
   description : "Bachelor's degree in Computer Science with a focus on software development and design.",
   items:[
     {
-    institution: "Shahwilayat Public School",
-    degree: "AKUEB Matriculation"
-    },
+      institution: "Iqra University",
+      degree: "Bachelors in Computer Science"
+      },
     {
       institution: "Iisar Foundation",
       degree: "AKUEB HSSC II"
       },
       {
-        institution: "Iqra University",
-        degree: "Bachelors in Computer Science"
-        },
+        institution: "Shahwilayat Public School",
+        degree: "AKUEB Matriculation"
+        }
+
     ]
 };
 
 const skills = {
   title : "My Skills",
-  description : "Proficient in web development, UI/UX design, logo design, and SEO, with a strong command of modern frameworks and tools.",
-  skillList:[
-    {
-      icon : <FaHtml5/>,
-      name : "HTML 5",
-    },
-    {
-      icon : <FaCss3/>,
-      name : "CSS 3",
-    },
-    {
-      icon : <FaJs/>,
-      name : "JS",
-    },
-    {
-      icon : <FaReact/>,
-      name : "REACT",
-    },
-    {
-      icon : <FaPython/>,
-      name : "PYTHON",
-    },
-    {
-      icon : <FaNode/>,
-      name : "NODE JS",
-    },
-    {
-      icon : <SiTailwindcss/>,
-      name : "TAILWIND CSS",
-    },
-    {
-      icon : <SiNextdotjs/>,
-      name : "NEXT DOT JS",
-    },
+  description : "Proficient in web development, UI/UX design, software development, mobile apps, Ai, machine learning and SEO, with a strong command of modern frameworks and tools.",
+  skillList: [
+    { icon: <FaHtml5 />, name: "HTML5" },
+    { icon: <FaCss3 />, name: "CSS3" },
+    { icon: <FaJs />, name: "JAVASCRIPT" },
+    { icon: <SiTypescript />, name: "TYPESCRIPT" },
+    { icon: <FaReact />, name: "REACT" },
+    { icon: <SiNextdotjs />, name: "NEXT.JS" },
+    { icon: <FaAngular />, name: "ANGULAR" },
+    { icon: <FaVuejs />, name: "VUE.JS" },
+    { icon: <SiTailwindcss />, name: "TAILWIND CSS" },
+    { icon: <SiRedux />, name: "REDUX" },
+    { icon: <FaNode />, name: "NODE.JS" },
+    { icon: <SiExpress />, name: "EXPRESS.JS" },
+    { icon: <SiMongodb />, name: "MONGODB" },
+    { icon: <SiMysql />, name: "MYSQL" },
+    { icon: <SiPostgresql />, name: "POSTGRESQL" },
+    { icon: <FaPython />, name: "PYTHON" },
+    { icon: <SiDjango />, name: "DJANGO" },
+    { icon: <SiFlask />, name: "FLASK" },
+    { icon: <SiTensorflow />, name: "TENSORFLOW" },
+    { icon: <SiKeras />, name: "KERAS" },
+    { icon: <SiJupyter />, name: "JUPYTER NOTEBOOKS" },
+    { icon: <SiFirebase />, name: "FIREBASE" },
+    { icon: <SiGraphql />, name: "GRAPHQL" },
+    { icon: <FaGit />, name: "GIT & GITHUB" },
+    { icon: <SiDocker />, name: "DOCKER" },
   ]
 };
-
-
-
-
 
 const Resume = () => {
   return (
@@ -249,4 +237,4 @@ const Resume = () => {
   )
 }
 
-export default Resume
+export default Resume;
