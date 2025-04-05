@@ -45,7 +45,7 @@ const Contact = () => {
     setStatus('Sending...');
 
     try {
-      const response = await fetch('http://localhost:5000/contact', {
+      const response = await fetch('https://port-backend-lovat.vercel.app/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
