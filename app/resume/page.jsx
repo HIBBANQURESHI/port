@@ -28,7 +28,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "2 Year"
+      fieldValue: "3 Year"
     },
     {
       fieldName: "Email",
@@ -41,8 +41,12 @@ const about = {
 const experience = {
   icon : "/assets/resume/badge.svg",
   title : 'My Experience',
-  description : "Proven track record in delivering successful web projects, from concept to deployment, across various industries.",
+  description : "Proven expertise in delivering full-cycle web solutions with integrated DevOps and AI, across diverse industries.",
   items:[
+    {
+      company: "Infinitum Systems",
+      position: "Full Stack Developer"
+    },
     {
       company: "AKC Link Tech",
       position: "Full Stack Developer"
